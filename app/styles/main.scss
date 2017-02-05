@@ -3,8 +3,16 @@
 .container {
   width: 800px;
   height: 400px;
-  background-image: url('data:image/gif;base64,R0lGODlhAgABAIAAAJ2imIuWnCH5BAAAAAAALAAAAAACAAEAAAICRAoAOw==');
+  position: relative;
+  //background-image: url('data:image/gif;base64,R0lGODlhAgABAIAAAJ2imIuWnCH5BAAAAAAALAAAAAACAAEAAAICRAoAOw==');
   background-repeat: no-repeat;
   background-size: cover;
   image-rendering: pixelated;
+}
+
+.temp-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
 }
